@@ -1,0 +1,150 @@
+
+/*INTRODUCING THE FONT FOR THE PAGE*/
+@font-face {
+  font-family: myFirstFont;
+  src: url('../fonts/Helvetica1.ttf');
+
+}
+
+div {
+  font-family: myFirstFont;
+}
+
+/*HIDING THE BORDERS OF "BOXES" - BORDERS*/
+*{
+	border: 0px;
+
+}
+
+body{
+	background-color: rosybrown;
+}
+
+
+h1{
+	color:darkslategray;
+}
+
+header{
+	background-color: rgba(165,42,42,.1);
+	/*MAKES THE OVERLAY OF THE HEADER ROUNDED, AS I WANT TO ACHIEVE A BUBBLE LOOK TO MY WEBSITE*/
+	border-radius: 50px;
+	text-align:  center;
+	/*PADDING HERE MAKES IT MATCH THE ROUNDED SHAP, EXTENDS THE HEADER VERTICALLY*/
+	padding :20px;
+}
+
+body{
+	padding: 45px;
+}
+
+#around{
+	background-color: rgba(255,255,255,.5);
+	border-radius:50px;
+}
+
+
+nav{
+	margin-bottom:  30px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+	margin:  0px;
+	display:  flex;
+}
+
+nav ul a:link{
+	border: solid 1px deeppink;
+	flex-grow: 1;
+
+	text-align:  center;
+	padding :10px;
+
+	font-size 14pt;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	border-radius: 50px;
+
+	color: rosybrown;
+	text-decoration: none;
+}
+
+
+nav ul a:hover{
+	background: rosybrown;
+	color: lightpink;
+}
+
+nav ul a:active{
+	color : white;
+}
+
+nav ul a:visited{
+	color : slategray;
+}
+
+nav ul a:focus{
+	color : palevioletred;
+}
+
+article{
+	display: flex;
+
+}
+
+#ytpage{
+	padding : 80px;
+	font-size : 16pt;
+}
+
+#ytpage iframe{
+	border-radius: 50px;
+}
+
+#ytvideo{
+	padding : 60px;
+	font-size : 16pt;
+}
+
+#ytvideo iframe{
+	border-radius: 50px;
+}
+
+
+section{
+	 	padding:  20px;
+	 	font-size: 15pt; 
+}
+
+footer{
+	display: flex;
+}
+
+footer div{
+	flex-grow: 1;
+	border-radius: 15px;
+	
+}
+#map {
+	padding:  60px;
+}
+#map iframe{
+	border-radius: 50px;
+
+}
+
+th, td {border-bottom:1px solid brown; }
+
+#SM{
+/*	border:  solid 0px;*/
+	display : flex;
+	justify-content : flex-end;
+	align-items : flex-end;
+}
+
+#SM a{
+	margin: 40px;
+}

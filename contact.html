@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>NYUAD Fashion Show</title>
+   <style>
+      *{
+         border : solid 1px black;
+      }
+   </style>
+   <style>
+body{
+   background:rosybrown;
+}
+</style>
+      <link href="css/custom.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+   <div id="around">
+      <header>
+         <h1>Contact me</h1> 
+      </header>
+      <nav>
+         <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+         </ul>
+      </nav>
+      <article>
+         
+         <form action="thankyou.html" method="POST" >
+            <table border="1" width="60%">
+               <tr>
+                  <td colspan="2">
+                     <h2>Contact me</h2>
+                  </td>
+               </tr>
+               <tr>
+                  <td>Name</td>
+                  <td>
+                     <input type="text" placeholder="Enter your name here" name="username"/> 
+                  </td>
+               </tr>
+               <tr>
+                  <td>Password</td>
+                  <td>
+                     <input type="password" placeholder="Enter your password here" name="password"/>
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td>
+                     What do you want to know?
+                  </td>
+                  <td>
+                     <select name="topic">
+                        <option value="Background">Background</option>
+                        <option value="Lithuania">Lithuania</option>
+                        <option value="Hobbies">Hobbies</option>
+                        <option value="Everything">Everything</option>
+                     </select>
+                  </td>
+               </tr>
+               <tr>
+                  <td> Message </td>
+                  <td>
+                     <textarea cols="60" rows="10" placeholder="Ask me anything..." name="message"></textarea>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <input type="reset" value="DELETE"/>
+                  </td>
+                  <td>
+                     <input type="submit" value="SUBMIT"/>
+
+                  </td>
+               </tr>
+            </table>
+         </form>
+      </article>
+      
+      <footer>
+        <div id="SM">
+            <a href="https://www.instagram.com/rasakors" target="_blank">
+               <img src="images/instagram.png" width="60px" height="auto"/>
+            </a>
+         </div>
+      </footer>
+
+   </div>
+</body>
+</html>
