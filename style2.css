@@ -1,0 +1,314 @@
+
+/*INTRODUCING THE FONT FOR THE PAGE*/
+@font-face {
+  font-family: myFirstFont;
+  src: url('../fonts/Helvetica1.ttf');
+}
+
+div {
+  font-family: myFirstFont;
+}
+
+*{
+	border: 0px;
+}
+
+
+body{
+	background-image: url('../images/babypink.jpg')
+}
+
+header{
+	background-color: rgba(165,42,42,.1);
+	border-radius: 50px;
+	text-align:  center;
+	padding :10px;
+}
+
+body{
+	padding: 45px;
+}
+
+h1{
+	color:darkslategray;
+}
+
+
+#myinfo{
+	padding : 30px;
+	border: solid 0x;
+	border-radius: 50px;
+}
+
+
+#around{
+	background-color: rgba(255,255,255,.5);
+	border-radius:50px;
+}
+
+nav{
+	margin-bottom:  30px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+	margin:  0px;
+
+	display:  flex;
+}
+
+nav ul a:link{
+	border: solid 1px deeppink;
+	flex-grow: 1;
+
+	text-align:  center;
+	padding :10px;
+
+	font-size: 14pt;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	border-radius: 50px;
+
+	color: rosybrown;
+	text-decoration: none;
+}
+
+form{
+	margin : 20px;
+	border: 1px;
+}
+
+nav ul a:hover{
+	background: rosybrown;
+	color: lightpink;
+}
+
+nav ul a:active{
+	color : white;
+}
+
+nav ul a:visited{
+	color : slategray;
+}
+
+nav ul a:focus{
+	color : palevioletred;
+}
+
+article{
+	display: flex;
+
+}
+
+#text_content{
+	padding : 20px;
+	font-size : 16pt;
+}
+
+
+section{
+	 	padding:  20px;
+	 	font-size: 15pt; 
+}
+
+footer{
+	display: flex;
+}
+
+footer div{
+	flex-grow: 1;
+	border-radius: 15px;
+	
+}
+#map {
+	padding:  20px;
+}
+#map iframe{
+	border-radius: 50px;
+
+}
+
+th, td {border-bottom:1px solid brown; }
+
+
+
+
+
+
+
+
+
+/*code taken from codepen*/
+/*https://codepen.io/tabz/pen/yLopNyP*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  color: #212d31;
+  font-family: myFirstFont;
+}
+
+
+div.form {
+  background-color: rgba(165,42,42,.0);
+  border-radius: 50px;
+}
+.contact-wrapper {
+  margin: auto 0;
+}
+
+.submit-btn {
+  float: left;
+}
+.reset-btn {
+  float: right;
+}
+
+.form-headline:after {
+  content: "";
+  display: block;
+  width: 10%;
+  padding-top: 10px;
+  border-bottom: 3px solid;
+}
+
+.highlight-text {
+  color: rosybrown;
+}
+
+.hightlight-contact-info {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.highlight-text-grey {
+  font-weight: 500;
+}
+
+.email-info {
+    margin-top: 20px;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  font-family: 'Roboto', sans-serif;
+}
+
+.required-input {
+  color: black;
+}
+@media (min-width: 600px) {
+  .contain {
+    padding: 0;
+  }
+}
+
+h3,ul {
+  margin: 0;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+.form-input:focus,
+textarea:focus{
+  outline: 1.5px solid;
+  color: lightpink;
+}
+
+.form-input,
+textarea {
+  width: 100%;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.wrapper > * {
+  padding: 1em;
+}
+@media (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .wrapper > * {
+    padding: 2em 2em;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts {
+  color: #212d31;
+}
+
+.form {
+  background: #fff;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+form label {
+  display: block;
+}
+form p {
+  margin: 0;
+}
+
+.full-width {
+  grid-column: 1 / 3;
+}
+
+button,
+.submit-btn,
+.form-input,
+textarea {
+  padding: 1em;
+}
+
+button, .submit-btn {
+  background: transparent;
+  border: 1px solid;
+  color: rosybrown;
+  border-radius: 15px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+}
+button:hover, .submit-btn:hover,
+button:focus , .submit-btn:focus{
+  background-color: rosybrown;
+  outline: 0;
+  color: #eee;
+}
+.error {
+  color: rosybrown;
+}
+
+/*end of taken code */
+
+
+
+#SM{
+/*	border:  solid 0px;*/
+	display : flex;
+	justify-content : flex-end;
+	align-items : flex-end;
+}
+
+#SM a{
+	margin: 40px;
+}
+
+
