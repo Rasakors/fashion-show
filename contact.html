@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>NYUAD Fashion Show</title>
+   <style>
+      *{
+         border : solid 1px black;
+      }
+   </style>
+   <style>
+body{
+   background:rosybrown;
+}
+</style>
+      <link href="css/style2.css" type="text/css" rel="stylesheet"/>
+      <script src="js/script.js"></script>
+
+<!-- USING JQUERY JS MAKE ONE LINE FLASH, IN-LINE JAVASCRIPT https://splunktool.com/how-to-make-a-text-flash-in-htmljavascript -->
+    <script src= "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      function blink_text() {
+           $('.blink').fadeOut(3000);
+           $('.blink').fadeIn(2000);
+}
+setInterval(blink_text, 1000);
+</script>
+
+</head>
+<body>
+
+   <div id="around">
+      <header>
+         <h1>Contact me</h1> 
+      </header>
+      <nav>
+         <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+         </ul>
+      </nav>
+<!-- contact box taken from codepen.io -->
+<!-- https://codepen.io/tabz/pen/yLopNyP -->
+<div class="contain">
+
+  <div class="wrapper">
+
+    <div class="form">
+      <h4>GET IN TOUCH</h4>
+ <!-- FLASH FUNCTION GETS EXECUTED BY CLALING THE BLINK CLASS https://splunktool.com/how-to-make-a-text-flash-in-htmljavascript  -->
+      <h2 class="blink">Send us a message</h2>
+      <form id="submit-form" action="">
+        <p>
+          <input id="name" class="form-input" type="text" placeholder="Your Name*">
+          <small class="name-error"></small>
+        </p>
+        <p>
+          <input id="email" class="form-input" type="email" placeholder="Your Email*">
+          <small class="name-error"></small>
+        </p>
+        <p class="full-width">
+          <input id="company-name" class="form-input" type="text" placeholder="School or Company*" required>
+          <small></small>
+        </p>
+        <p class="full-width">
+          <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+          <small></small>
+        </p>
+        <p class="full-width">
+          <input type="checkbox" id="checkbox" name="checkbox" checked>I would like to receive updates from NYUAD Fashion Department.
+        </p>
+        <p class="full-width">
+          <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+          <button class="reset-btn" onclick="reset()">Reset</button>
+        </p>
+      </form>
+    </div>
+      
+      <footer>
+        <div id="SM">
+            <a href="https://www.instagram.com/rasakors" target="_blank">
+               <img src="images/instagram.png" width="60px" height="auto"/>
+            </a>
+         </div>
+      </footer>
+
+   </div>
+</body>
+</html>
